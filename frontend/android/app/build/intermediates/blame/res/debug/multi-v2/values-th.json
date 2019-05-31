@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/juniordev/Documentos/ProjetosRN/tdha_app/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-th/values-th.xml",
+            "outputFile": "/home/juniordev/Documentos/ProjetosRN/tdha_app/frontend/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-th/values-th.xml",
             "map": [
                 {
                     "source": "/home/juniordev/.gradle/caches/transforms-1/files-1.1/facebook-login-4.34.0.aar/333e357a70cf1989c1a244abd84316fc/res/values-th/values-th.xml",

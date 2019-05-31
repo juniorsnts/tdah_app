@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/juniordev/Documentos/ProjetosRN/tdha_app/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v18/values-v18.xml",
+            "outputFile": "/home/juniordev/Documentos/ProjetosRN/tdha_app/frontend/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v18/values-v18.xml",
             "map": [
                 {
                     "source": "/home/juniordev/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/c4efb74b4d788236e59b9d9bf44def19/res/values-v18/values-v18.xml",

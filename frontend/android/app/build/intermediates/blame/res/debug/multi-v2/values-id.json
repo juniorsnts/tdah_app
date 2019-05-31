@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/juniordev/Documentos/ProjetosRN/tdha_app/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-id/values-id.xml",
+            "outputFile": "/home/juniordev/Documentos/ProjetosRN/tdha_app/frontend/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-id/values-id.xml",
             "map": [
                 {
                     "source": "/home/juniordev/.gradle/caches/transforms-1/files-1.1/facebook-common-4.34.0.aar/5a138c5e544614aad6d1db04dbc4dd9c/res/values-id/values-id.xml",

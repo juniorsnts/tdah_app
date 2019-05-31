@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/juniordev/Documentos/ProjetosRN/tdha_app/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-be/values-be.xml",
+            "outputFile": "/home/juniordev/Documentos/ProjetosRN/tdha_app/frontend/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-be/values-be.xml",
             "map": [
                 {
                     "source": "/home/juniordev/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.2.0.aar/68ab0df1558acc1008cc49b879638fd6/res/values-be/values.xml",

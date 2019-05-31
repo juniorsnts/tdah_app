@@ -8,7 +8,7 @@ export const Container = styled(LinerGradient).attrs({
 `;
 
 export const ScrollContent = styled.ScrollView.attrs({
-    showVerticalScrollIndicator: false
+    showsVerticalScrollIndicator: false
 })``;
 
 export const ContainerUser = styled.View`

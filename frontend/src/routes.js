@@ -6,6 +6,7 @@ import InfoSintomas from './InfoSintomas';
 import InfoCausas from './InfoCausas';
 import InfoTratamento from './InfoTratamento';
 import Mapa from './Mapa';
+import Podcast from './Podcast';
 
 export const appNavigator = (istoken = false) => {
     const navigator = createStackNavigator({
@@ -15,10 +16,11 @@ export const appNavigator = (istoken = false) => {
         InfoSintomas: InfoSintomas,
         InfoCausas: InfoCausas,
         InfoTratamento: InfoTratamento,
-        Mapa: Mapa
+        Mapa: Mapa,
+        Podcast: Podcast
     },{
         headerMode: 'none',
-        initialRouteName: istoken? 'Home' : 'Main'
+        initialRouteName: istoken? 'Podcast' : 'Main'
     });
     return createAppContainer(navigator)
 }

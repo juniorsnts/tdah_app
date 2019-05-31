@@ -15,9 +15,10 @@ const CardFunc = (props) => {
         try {
             const permission = await PermissionsAndroid.request(
                 PermissionsAndroid.PERMISSIONS.ACCESS_FINE_LOCATION
-            )
-            if(permission === PermissionsAndroid.RESULTS.GRANTED){
-                props.navigation.push(props.page);
+                )
+                if(permission === PermissionsAndroid.RESULTS.GRANTED){
+                    disabledButton = true;
+                    props.navigation.push(props.page);
             }
         }
         catch(err){

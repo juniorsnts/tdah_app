@@ -8,11 +8,11 @@ const InfoCausas = (props) => {
             <Header navigation={props.navigation} background="#1C9E49"/>   
             <ScrollContent>
                 <Content>
-                    <Card style={{backgroundColor: '#1C9E9E'}}>
+                    <Card style={{backgroundColor: '#1C9E87'}}>
                         <Title>Causas do TDAH</Title>
                         <SubTitle>O Transtorno de Déficit de Atenção com Hiperatividade é um dos transtornos mais estudados no mundo. Considera-se, hoje, que as causas do aparecimento do TDAH são uma combinação entre fatores genéticos, alterações no cérebro e fatores ambientais. Saiba mais sobre cada um dos fatores de risco:</SubTitle>
                     </Card>
-                    <Card style={{backgroundColor: '#1C9E87'}}>
+                    <Card style={{backgroundColor: '#1C9E9E'}}>
                         <Title>Genética e Hereditariedade</Title>
                         <SubTitle>Sabe-se hoje que as chances de ter o TDAH é bem maior em filhos e familiares de pessoas com esse transtorno.{'\n\n'}Estudos descobriram que 60% das crianças com o Transtorno de Déficit de Atenção com Hiperatividade tinham um dos pais com o transtorno e que a probabilidade de uma criança ter o TDAH aumenta em até oito vezes se os pais também tiverem o problema.{'\n\n'}Além disso, o risco de apresentar o transtorno é cinco vezes maior entre familiares de pessoas com TDAH do que em pessoas sem o transtorno na família.</SubTitle>
                     </Card>
