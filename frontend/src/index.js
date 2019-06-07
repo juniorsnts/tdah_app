@@ -12,7 +12,7 @@ export default class App extends Component {
         isToken()
             .then(res => this.setState({ istoken: res }));
     }
-
+    
     render(){
         const Layout = appNavigator(this.state.istoken);
         return <Layout/>

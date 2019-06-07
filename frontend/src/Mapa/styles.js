@@ -1,9 +1,7 @@
 import styled from 'styled-components/native';
-import LinearGradient from 'react-native-linear-gradient';
+import { Animated } from 'react-native';
 
-export const Container = styled(LinearGradient).attrs({
-  colors: ['#1C9E87', '#99D4FF']
-})`
+export const Container = styled.View`
   flex: 1;
 `;
 
@@ -17,7 +15,7 @@ export const ViewClinic = styled.ScrollView.attrs({
 })`
   position: absolute;  
   bottom: 25px;  
-  z-index: 2;
+  z-index: 22222222;
   width: 100%; 
 `;
 

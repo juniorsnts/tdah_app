@@ -58,6 +58,7 @@ export const RobotButton = styled.TouchableOpacity`
     position: absolute;
     bottom: 10px;
     right: 10px;
+    z-index: 2;
 `;
 
 export const Robot = styled.Image``;

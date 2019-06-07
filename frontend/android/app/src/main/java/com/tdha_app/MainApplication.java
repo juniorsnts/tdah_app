@@ -3,6 +3,8 @@ package com.tdha_app;
 import android.app.Application;
 
 import com.facebook.react.ReactApplication;
+import com.reactnativecommunity.slider.ReactSliderPackage;
+import com.zmxv.RNSound.RNSoundPackage;
 import com.airbnb.android.react.maps.MapsPackage;
 import com.reactnativecommunity.asyncstorage.AsyncStoragePackage;
 import co.apptailor.googlesignin.RNGoogleSigninPackage;
@@ -39,6 +41,8 @@ public class MainApplication extends Application implements ReactApplication {
     protected List<ReactPackage> getPackages() {
       return Arrays.<ReactPackage>asList(
             new MainReactPackage(),
+            new ReactSliderPackage(),
+            new RNSoundPackage(),
             new MapsPackage(),
             new AsyncStoragePackage(),
             new RNGoogleSigninPackage(),

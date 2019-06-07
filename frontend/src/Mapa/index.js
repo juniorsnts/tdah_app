@@ -3,7 +3,7 @@ import { Container, Content, ViewClinic, Card, CardImage, ViewDetais, Name, Addr
 import Header from '../components/Header';
 import MapView, { Marker } from 'react-native-maps';
 import Direction from 'react-native-maps-directions';
-import { Dimensions } from 'react-native';
+import { Dimensions, Animated } from 'react-native';
 import Icon from 'react-native-vector-icons/FontAwesome';
 
 const { height, width } = Dimensions.get('window');
@@ -45,24 +45,76 @@ class Mapa extends Component {
       }
     })    
   }
+
+  HandlerStateChange = (event) => {
+    console.log(event);
+  }
   
   render(){
     const ClinicView = () => {
       return (
-        <ViewClinic>
-          <Card>
-            <CardImage source={{uri: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmDYkDkImrsrosIo_QbUtShRfLwBCC05y06CCEkyemLQyDRnCO'}}></CardImage>
-            <ViewDetais>
-              <Name>Laboratório Furlan</Name>
-              <Address>Avenida comandante marapanim, 1335</Address>
-              <ButtonCard 
-              onPress={() => this.markerClinic({latitude: 0.01063512, longitude: -51.08876712})}>
-                <Icon name="map-marker" color="#FFF"/>
-                <ButtonText>Ver no mapa</ButtonText>
-              </ButtonCard>
-            </ViewDetais>
-          </Card>             
-        </ViewClinic>
+          <ViewClinic>
+            <Card>
+              <CardImage source={{uri: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmDYkDkImrsrosIo_QbUtShRfLwBCC05y06CCEkyemLQyDRnCO'}}></CardImage>
+              <ViewDetais>
+                <Name>Laboratório Furlan</Name>
+                <Address>Avenida comandante marapanim, 1335</Address>
+                <ButtonCard 
+                onPress={() => this.markerClinic({latitude: 0.01063512, longitude: -51.08876712})}>
+                  <Icon name="map-marker" color="#FFF"/>
+                  <ButtonText>Ver no mapa</ButtonText>
+                </ButtonCard>
+              </ViewDetais>
+            </Card>    
+            <Card>
+              <CardImage source={{uri: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmDYkDkImrsrosIo_QbUtShRfLwBCC05y06CCEkyemLQyDRnCO'}}></CardImage>
+              <ViewDetais>
+                <Name>Laboratório Furlan</Name>
+                <Address>Avenida comandante marapanim, 1335</Address>
+                <ButtonCard 
+                onPress={() => this.markerClinic({latitude: 0.01063512, longitude: -51.08876712})}>
+                  <Icon name="map-marker" color="#FFF"/>
+                  <ButtonText>Ver no mapa</ButtonText>
+                </ButtonCard>
+              </ViewDetais>
+            </Card>  
+            <Card>
+              <CardImage source={{uri: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmDYkDkImrsrosIo_QbUtShRfLwBCC05y06CCEkyemLQyDRnCO'}}></CardImage>
+              <ViewDetais>
+                <Name>Laboratório Furlan</Name>
+                <Address>Avenida comandante marapanim, 1335</Address>
+                <ButtonCard 
+                onPress={() => this.markerClinic({latitude: 0.01063512, longitude: -51.08876712})}>
+                  <Icon name="map-marker" color="#FFF"/>
+                  <ButtonText>Ver no mapa</ButtonText>
+                </ButtonCard>
+              </ViewDetais>
+            </Card>  
+            <Card>
+              <CardImage source={{uri: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmDYkDkImrsrosIo_QbUtShRfLwBCC05y06CCEkyemLQyDRnCO'}}></CardImage>
+              <ViewDetais>
+                <Name>Laboratório Furlan</Name>
+                <Address>Avenida comandante marapanim, 1335</Address>
+                <ButtonCard 
+                onPress={() => this.markerClinic({latitude: 0.01063512, longitude: -51.08876712})}>
+                  <Icon name="map-marker" color="#FFF"/>
+                  <ButtonText>Ver no mapa</ButtonText>
+                </ButtonCard>
+              </ViewDetais>
+            </Card>  
+            <Card>
+              <CardImage source={{uri: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmDYkDkImrsrosIo_QbUtShRfLwBCC05y06CCEkyemLQyDRnCO'}}></CardImage>
+              <ViewDetais>
+                <Name>Laboratório Furlan</Name>
+                <Address>Avenida comandante marapanim, 1335</Address>
+                <ButtonCard 
+                onPress={() => this.markerClinic({latitude: 0.01063512, longitude: -51.08876712})}>
+                  <Icon name="map-marker" color="#FFF"/>
+                  <ButtonText>Ver no mapa</ButtonText>
+                </ButtonCard>
+              </ViewDetais>
+            </Card>           
+          </ViewClinic>
       )
     }
 
@@ -115,7 +167,6 @@ class Mapa extends Component {
                   />  
                   <Marker 
                   coordinate={selectedClinic}
-                  anchor={{ x: 0, y: 0 }}
                   />
                   </>
                 )}

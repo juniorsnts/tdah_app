@@ -1,0 +1,4 @@
+#Fri May 31 16:09:04 BRT 2019
+base.0=/home/juniordev/Documentos/ProjetosRN/tdha_app/frontend/android/app/build/intermediates/transforms/dexMerger/release/0
+path.0=classes.dex
+renamed.0=classes.dex
